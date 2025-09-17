@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: #EEAECA; /* Warna fallback jika gradasi tidak didukung */
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); /* Latar belakang gradasi */
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.contact-info {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.experience-item, .organization-item {
+    margin-bottom: 15px;
+}
+.experience-item h3, .organization-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.experience-item p, .organization-item p {
+    margin: 0;
+    color: #555;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 5px;
+}
